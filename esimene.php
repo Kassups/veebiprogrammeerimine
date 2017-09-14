@@ -2,13 +2,16 @@
 <html>
 <head>
 	<meta charset="utf-8"> [andmed andmete kohta]
-	<title>Kaspar Aasmäe programeerib veebi</title>
+	<title>Kaspar AasmÃ¤ programeerib veebi</title>
 </head>
 <body>
-	<h1>Kaspar Aasmäe, veebiprogrammeerimine<h1>
-	<p>See veebileht on loodud õppetöö raames ning ei sisalda mingisugust tõsiseltvõetavat sisu!</p>
+	<h1>Kaspar AasmÃ¤ veebiprogrammeerimine<h1>
+	<p>See veebileht on loodud ÃµppetÃ¶Ã¶ raames ning ei sisalda mingisugust tÃµsiseltvÃµetavat sisu!</p>
 	<?php
-	echo "Algas PHP õppimine.";
+	echo "<p>Algas PHP Ãµmine.</p>";
+	echo "<p>TÃ¤na on ";
+	echo date("d.m.Y") .", kell oli lehe avamise hetkel " .date("H:i:s");
+	echo ".</p>";
 	?>
 </body>
 </html>
