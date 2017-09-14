@@ -1,5 +1,5 @@
 <?php
-	//muutujad
+	//muutujad ja muus siuke
 	$myName = "Kaspar";
 	$myFamilyName = "Aasmäe";
 	
